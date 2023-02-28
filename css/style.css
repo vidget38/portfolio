@@ -1,0 +1,246 @@
+.body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+
+}
+.main {
+    background: #000;
+}
+.header{
+    background-color: #000;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.intro {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-menu {
+    display: flex;
+    
+}
+
+.menu__item {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* intro
+======================= */
+
+.hero {
+    width: 330px;
+    height: 500px;
+}
+
+.hero-author {
+    font-size: 60px;
+    font-weight: bold;
+    
+    color: #fff;
+}
+
+.about-hero {
+    line-height: 1.5;
+    color: #fff;
+    padding: 10px 30px 25px 0;
+}
+
+.btn {
+    width: 220px;
+    height: 55px;
+    background: #000;
+    color: #bdae82;
+    border: 2px solid #bdae82;
+}
+.btn_gold {
+    background: #bdae82;
+    color:#000;
+}
+
+/* skills
+======================= */
+
+.skills {
+    background: #000;
+}
+
+.skills__block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.skills-title {
+    font-family: 'Merriweather', san-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #bdae82;
+}
+
+.skills__item {
+    width: 320px;
+    height: 240px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.skills__item-title {
+    font-size: 20px;
+    font-weight: 700;
+    
+    color: #fff;
+
+}
+
+.skills__item-desc {
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    padding: 20px;
+}
+
+/* portfolio
+======================= */
+
+.portfolio {
+    background: #000;
+}
+
+.portfolio-title {
+    font-family: 'Merriweather', san-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#bdae82;
+}
+
+.profile__button {
+    text-align: center;
+}
+
+.portfolio__item {
+    margin-top: 60px;
+}
+
+.portfolio__img {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+/* video
+======================= */
+
+.video-title {
+    font-family: 'Merriweather', san-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#bdae82;
+}
+
+.video-player {
+    position: relative;
+    
+    
+}
+
+.video-photo {
+    display: block;
+    margin: 0 auto;
+    width: 1400px;
+    height: 705px;
+}
+
+
+.video-btn {
+    position: absolute;
+    top: 288px;
+    left: 826px;
+    width: 130px;
+    height: 130px;
+    background: url("../img/video/Play.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-btn:hover {
+    
+    position: absolute;
+    top: 288px;
+    left: 826px;
+    width: 130px;
+    height: 130px;
+    background: url("../img/video/Play_hover.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* price
+======================= */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.price-title {
+    font-family: 'Merriweather', san-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color:#bdae82;
+}
+
+.card__item {
+    border: 2px solid #bdae82;
+}
+
+.card__item-title {
+    font-family: 'Merriweather', san-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.price__item {
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-bottom: 40px;
+}
+
+.card__item-title span {
+    display: block;
+    font-family: 'Merriweather', san-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #bdae82;
+}
+.price__item-list {
+    font-size: 18px;
+    color: #fff;
+    list-style: none;
+
+}
